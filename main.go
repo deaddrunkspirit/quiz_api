@@ -3,7 +3,7 @@ package main
 import (
     "github.com/gin-gonic/gin"
 )
-
+// DEPRECATED
 func homeHandler(c *gin.Context) {
     c.String(200, "Welcome to our API!")
 }
